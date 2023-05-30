@@ -1,4 +1,4 @@
-import wallets from "../src/model/wallet.js";
+import wallets from "../model/wallet.js";
 
 export async function  createWallet (req, res){
     try{

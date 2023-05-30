@@ -1,7 +1,7 @@
-import transactions from "../src/model/transaction.js";
+import transactions from "../model/transaction.js";
 import mongoose from "mongoose";
 import {v4} from "uuid";
-import { creditAccount, debitAccount } from "../utility/transactins.js";
+import { creditAccount, debitAccount } from "../../utility/transactins.js";
 
 
 export async function transfer(req, res){
